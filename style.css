@@ -1,0 +1,10 @@
+body {
+    font-family: 'Mystery Quest', cursive;
+    background-color: #e2e2e2;
+}
+
+#logo {
+    width: 125px;
+    height: 100px;
+    margin-top: 10px;
+}
