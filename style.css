@@ -72,7 +72,7 @@ body {
 
 #description {
     font-size: 17px;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 #logo1 {
@@ -86,7 +86,7 @@ body {
     font-size: 17px;
     margin-top: 20px;
     margin-bottom: 20px;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .typephotos {
@@ -103,4 +103,23 @@ body {
     top: 10%;
     left: 20%;
     opacity: 0.5;
+}
+
+.footer1 {
+    background-color: #ccc8b380;
+    margin-bottom: 0;
+    margin-top: 15px;
+    height: 25px;
+}
+
+.footer2 {
+    background-color: #ccc8b3;
+    height: 100px;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: #c59f9f;
+    padding: 20px 10px 10px 10px;
+    display: inline-block;
 }
