@@ -16,6 +16,10 @@ body {
     font-weight: bolder;
 }
 
+.navlinkcolor {
+    color: #c59f9f;
+}
+
 .navbar-brand {
     padding: 0;
 }
@@ -119,7 +123,16 @@ body {
 
 .footerlinks {
     text-decoration: none;
-    color: #c59f9f;
+    color: black;
+    opacity: 0.6;
     padding: 20px 10px 10px 10px;
     display: inline-block;
+}
+
+.footerlinks:hover {
+    text-decoration: none;
+}
+
+.footerlast {
+    opacity: 0.6;
 }
