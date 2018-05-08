@@ -1,6 +1,7 @@
 body {
     font-family: 'Mystery Quest', cursive;
     color: Black;
+    font-weight: bold;
     background-color: #e2e2e2;
 }
 
@@ -25,34 +26,65 @@ body {
 }
 /*Main section--------------------------------*/
 
-.mainphoto {
+#mainphoto1 {
+    background-image: url("photos/wedding-cake.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 550px;
     height: 500px;
     width: 100vw;
     position: relative;
 }
 
-.innerphoto {
+#mainphoto2 {
+    background-image: url("photos/unicorncake.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 550px;
+    height: 500px;
+    width: 100vw;
+    position: relative;
+}
+
+.insidephoto1 {
     position: absolute;
     left: 70%;
     top: 10%;
-    background-color: white;
     font-size: 35px;
-    font-weight: bold;
     width: 180px;
     text-align: justify;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
-.shutter {
-    background-color: #e2e2e2;
-    height: 55px;
-    width: 100%;
+.insidephoto2 {
     position: absolute;
-    left: 0;
-    top:57%;
+    font-size: 35px;
+    opacity: 0.7;
+    width: 180px;
+    text-align: justify;
+    top: 15%;
+    left: 15%;
+}
+
+#margin {
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 17px;
 }
 
 #logo1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 150px;
     width: 125px;
+}
+
+.types {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.typephotos {
+    height: 250px;
+    width: 250px;
 }
