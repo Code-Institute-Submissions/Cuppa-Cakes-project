@@ -1,10 +1,58 @@
 body {
     font-family: 'Mystery Quest', cursive;
+    color: Black;
     background-color: #e2e2e2;
 }
 
+.c9___highlighter {
+    display: none;
+}
+/* Head of page---------------------------------*/
+.navbar {
+    border: none;
+    margin: 0;
+    background-color: #e2e2e2;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
 #logo {
+    width: auto;
+    height: 50px;
+}
+/*Main section--------------------------------*/
+
+.mainphoto {
+    height: 500px;
+    width: 100vw;
+    position: relative;
+}
+
+.innerphoto {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    width: 180px;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+.shutter {
+    background-color: #e2e2e2;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:57%;
+}
+
+#logo1 {
+    height: 150px;
     width: 125px;
-    height: 100px;
-    margin-top: 10px;
 }
