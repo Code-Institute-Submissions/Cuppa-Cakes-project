@@ -33,9 +33,20 @@ body {
     margin: 0;
 }
 
+@media (min-width: 768px) and (max-width: 791px) {
+        .nopad {
+            padding-left: 0;
+            padding-right: 0;
+        }   
+}
+
 /*Modal-------------------------------*/
 #hi {
     padding-left: 12px;
+}
+
+.modalcursor {
+    cursor: pointer;
 }
 
 input[type=text], select, textarea {
@@ -50,8 +61,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #fff;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -59,7 +70,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #e2e2e2;
 }
 
 .modalcontain {
@@ -138,8 +149,14 @@ input[type=submit]:hover {
     position: relative;
 }
 
+@media (max-width: 1199px) {
+    .typephotos {
+        margin-bottom: 10px;
+    }
+}
+
 .order {
-    border-radius: 2px;
+    border-radius: 3px;
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -168,7 +185,7 @@ input[type=submit]:hover {
 
 .footer2 {
     background-color: #ccc8b3;
-    height: 100px;
+    height: 125px;
 }
 
 .footerlinks {
@@ -179,8 +196,39 @@ input[type=submit]:hover {
     display: inline-block;
 }
 
+.footerlinks:visited {
+    text-decoration: none;
+    border: none;
+    color: black;
+    opacity: 1;
+}
+
 .footerlinks:hover {
     text-decoration: none;
+    border: none;
+    color: black;
+    opacity: 1;
+}
+
+.footerlinks:active {
+    text-decoration: none;
+    border: none;
+    color: black;
+    opacity: 1;
+}
+
+.footerlinks:focus {
+    text-decoration: none;
+    border: none;
+    color: black;
+    opacity: 1;
+    outline: none;
+}
+.footerlinks:after {
+    text-decoration: none;
+    border: none;
+    color: black;
+    opacity: 1;
 }
 
 .hvr-underline-from-left:hover {
@@ -188,6 +236,11 @@ input[type=submit]:hover {
 }
 
 .footerlast {
+    opacity: 0.6;
+}
+
+.hvr-underline-from-left:before {
+    background: black;
     opacity: 0.6;
 }
 
