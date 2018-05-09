@@ -3,6 +3,7 @@ body {
     color: Black;
     font-weight: bold;
     background-color: #e2e2e2;
+    font-size: 16px;
 }
 
 .c9___highlighter {
@@ -14,6 +15,7 @@ body {
     margin: 0;
     background-color: #e2e2e2;
     font-weight: bolder;
+    min-height: 60px;
 }
 
 .navlinkcolor {
@@ -26,7 +28,7 @@ body {
 
 #logo {
     width: auto;
-    height: 50px;
+    height: 59px;
 }
 
 #navbarsearch {
@@ -83,7 +85,7 @@ input[type=submit]:hover {
 /*Main section--------------------------------*/
 
 #mainphoto1 {
-    background-image: url("photos/wedding-cake.jpg");
+    background-image: url("photos/wedding-cake2.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 550px;
     height: 500px;
@@ -138,7 +140,7 @@ input[type=submit]:hover {
 
 #description {
     font-size: 17px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #logo1 {
@@ -152,7 +154,7 @@ input[type=submit]:hover {
     font-size: 17px;
     margin-top: 20px;
     margin-bottom: 20px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .typephotos {
@@ -160,6 +162,7 @@ input[type=submit]:hover {
     width: 200px;
     position: relative;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 @media (max-width: 1199px) {
@@ -281,12 +284,10 @@ input[type=submit]:hover {
     height: 125px;
 }
 
-@media ()
-
 .footerlinks {
     text-decoration: none;
     color: black;
-    opacity: 0.6;
+    opacity: 0.5;
     padding: 20px 10px 10px 10px;
     display: inline-block;
 }
@@ -331,12 +332,12 @@ input[type=submit]:hover {
 }
 
 .footerlast {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .hvr-underline-from-left:before {
     background: black;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #footerlastpadding {
