@@ -155,6 +155,86 @@ input[type=submit]:hover {
     }
 }
 
+.wedding1 {
+    background-image: url("photos/wedding1.jpg");
+    background-size: cover;
+}
+
+.wedding2 {
+    background-image: url("photos/wedding2.jpg");
+    background-size: cover;
+}
+
+.wedding3 {
+    background-image: url("photos/wedding3.jpg");
+    background-size: cover;
+}
+
+.lisa11 {
+    background-image: url("photos/lisa11.jpg");
+    background-size: cover;
+}
+
+.lisa2 {
+    background-image: url("photos/lisa2.jpg");
+    background-size: cover;
+}
+
+.lisa6 {
+    background-image: url("photos/lisa6.jpg");
+    background-size: cover;
+}
+
+.lisa7 {
+    background-image: url("photos/lisa7.jpg");
+    background-size: cover;
+}
+
+.lisa1 {
+    background-image: url("photos/lisa1.jpg");
+    background-size: cover;
+}
+
+.cup3 {
+    background-image: url("photos/cup3.jpg");
+    background-size: cover;
+}
+
+.cup2 {
+    background-image: url("photos/cup2.jpg");
+    background-size: cover;
+}
+
+.lisa4 {
+    background-image: url("photos/lisa4.jpg");
+    background-size: cover;
+}
+
+.lisa10 {
+    background-image: url("photos/lisa10.jpg");
+    background-size: cover;
+}
+
+.reg2 {
+    background-image: url("photos/reg2.png");
+    background-size: cover;
+}
+
+.lisa3 {
+    background-image: url("photos/lisa3.jpg");
+    background-size: cover;
+}
+
+.reg1 {
+    background-image: url("photos/reg1.png");
+    background-size: cover;
+}
+
+.lisa8 {
+    background-image: url("photos/lisa8.jpg");
+    background-size: cover;
+}
+
 .order {
     border-radius: 3px;
     color: black;
@@ -163,8 +243,8 @@ input[type=submit]:hover {
     background-color: white;
     position: absolute;
     padding: 3px;
-    top: 10%;
-    left: 20%;
+    top: 8%;
+    left: 10%;
     opacity: 0.5;
 }
 
