@@ -120,6 +120,18 @@ input[type=submit]:hover {
     letter-spacing: 3px;
 }
 
+@media (max-width: 768px) {
+    .insidephoto1 {
+        font-size: 15px;
+        width: 100px;
+    }
+    
+    .insidephoto2 {
+        font-size: 15px;
+        width: 100px;
+    }
+}
+
 #margin {
     margin-bottom: 20px;
 }
@@ -147,6 +159,7 @@ input[type=submit]:hover {
     height: 200px;
     width: 200px;
     position: relative;
+    margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -267,6 +280,8 @@ input[type=submit]:hover {
     background-color: #ccc8b3;
     height: 125px;
 }
+
+@media ()
 
 .footerlinks {
     text-decoration: none;
