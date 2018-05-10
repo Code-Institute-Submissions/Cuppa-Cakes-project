@@ -36,39 +36,7 @@
                         <li><a href="#" class="headpad">Birthdays</a></li>
                         <li><a href="#" class="headpad">Cup Cakes</a></li>
                         <li><a href="#" class="headpad">Regular Cakes</a></li>
-                        <!-- modal ------------------------------------------------------>
-                        <li><a data-toggle="modal" data-target=".bs-example-modal-lg" class="modalcursor headpad">Contact Us</a>
-                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <h3 id="hi">Say Hi or Leave a Comment</h3>
-                                        <div class="modalcontain">
-                                            <form action="/action_page.php">
-                                                <label for="fname">First Name</label>
-                                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                                                <label for="lname">Last Name</label>
-                                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                                                <label for="cake">Type of Cake</label>
-                                                <select id="cake" name="cake">
-      <option value="wedding">Wedding</option>
-      <option value="birthday">Birthday</option>
-      <option value="cupcake">Cup Cake</option>
-      <option value="regular">Regular</option>
-    </select>
-
-                                                <label for="feedback">Feedback</label>
-                                                <textarea id="feedback" name="feedback" placeholder="Tell us your thoughts..." style="height:200px"></textarea>
-
-                                                <input type="submit" value="Submit">
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--modal ends--------------------------------------------------->
+                        <li><a data-toggle="modal" data-target=".bs-example-modal-lg" class="modalcursor headpad">Contact Us</a></li>
                     </ul>
                     <form class="navbar-form navbar-right nopad">
                         <div class="form-group">
@@ -250,5 +218,35 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+<!-- Modal code-->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <h3 id="hi">Say Hi or Leave a Comment</h3>
+            <div class="modalcontain">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="cake">Type of Cake</label>
+                    <select id="cake" name="cake">
+      <option value="wedding">Wedding</option>
+      <option value="birthday">Birthday</option>
+      <option value="cupcake">Cup Cake</option>
+      <option value="regular">Regular</option>
+    </select>
+
+                    <label for="feedback">Feedback</label>
+                    <textarea id="feedback" name="feedback" placeholder="Tell us your thoughts..." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal finishes -->
 </html>
