@@ -283,6 +283,12 @@ input[type=submit]:hover {
     height: 125px;
 }
 
+@media (max-width 425px) {
+    .footer2 {
+        height: 150px;
+    }
+}
+
 .footerlinks {
     text-decoration: none;
     color: black;
