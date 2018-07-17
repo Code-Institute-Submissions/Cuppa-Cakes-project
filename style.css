@@ -122,10 +122,11 @@ input[type=submit]:hover {
 
 .insidephoto1others {
     position: absolute;
-    left: 70%;
-    top: 35%;
+    left: 75%;
+    top: 30%;
     font-size: 55px;
     width: 180px;
+    text-align: justify;
     opacity: 0.7;
     letter-spacing: 3px;
 }
@@ -149,6 +150,18 @@ input[type=submit]:hover {
     
     .insidephoto2 {
         font-size: 15px;
+        width: 100px;
+    }
+    
+    .insidephoto1others {
+        font-size: 15px;
+        width: 100px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 930px) {
+    .insidephoto1others {
+        font-size: 25px;
         width: 100px;
     }
 }
@@ -302,10 +315,10 @@ input[type=submit]:hover {
     background-color: #ccc8b3;
     height: 125px;
 }
-
-@media (max-width: 425px) {
+/*425*/
+@media (max-width: 627px) {
     .footer2 {
-        height: 175px;
+        height: 210px;
     }
 }
 
