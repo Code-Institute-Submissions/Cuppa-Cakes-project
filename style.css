@@ -97,15 +97,15 @@ input[type=submit]:hover {
     background-image: url("photos/wedding-cake2.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 550px;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 
 #mainphoto2 {
-    background-image: url("photos/unicorncake.jpg");
+    background-image: url("photos/wedding-cake.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 550px;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 
