@@ -21,6 +21,10 @@ body {
     color: #c59f9f;
 }
 
+.navbar-nav {
+    font-size: 20px;
+}
+
 .navbar-brand {
     height: 70px;
     padding: 0;
@@ -42,7 +46,7 @@ body {
 }
 
 .nav {
-    padding-top: 13px;
+    padding-top: 12px;
 }
 
 .navbar-form {
