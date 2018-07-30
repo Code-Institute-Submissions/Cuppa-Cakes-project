@@ -22,12 +22,13 @@ body {
 }
 
 .navbar-brand {
+    height: 70px;
     padding: 0;
 }
 
 #logo {
     width: auto;
-    height: 59px;
+    height: 70px;
 }
 
 #navbarsearch {
@@ -38,6 +39,14 @@ body {
         .nopad {
             display: none;
         }   
+}
+
+.nav {
+    padding-top: 13px;
+}
+
+.navbar-form {
+    padding-top: 10px;
 }
 
 /*Modal-------------------------------*/
