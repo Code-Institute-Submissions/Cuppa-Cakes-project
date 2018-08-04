@@ -45,28 +45,28 @@ Please see inside the cuppacakes directory Balsamiq Cuppa Cakes.bmpr file for wi
 
 ## Testing
 
+The following has been manually tested and is fully working:
 
+- Contact us modal in navbar and footer on every page
+- Order Here button underneath every single cake image
+- Logo on every page with link to landing page
+- Every link on navbar and footer on every page
+- Facebook link on footer section of every page
+- Navbar collapse and extention when viewed on mobile
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Deployment of project was undertaken with GitHub pages. In the source option, None was replaced by Master branch. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There are no differences between the local and the deployed versions
 
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Lisa's own photo records and some from searching in google
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from https://bakealiciousbygabriela.com.au/, https://pressup.ie/ and took the color scheme used in the logo that Lisa provided me with
+- Would like to give a special thank you to Matt Rudge, Katie Maxwell and all my colleges from class at Code Institute
