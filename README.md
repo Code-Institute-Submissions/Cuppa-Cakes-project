@@ -1,6 +1,72 @@
-bootstrap - framework, modal, navbar
-fontawsome - facebook and messenger logos
-photos taken from client and pinterest
-contact me form taken from w3schools
-balsamic used to wireframe
-hover effect on the footer links taken from http://ianlunn.github.io/Hover/
+# Your Project's Name
+
+Cuppa Cakes is the trading name of a lady called Lisa that sells custom hand made cakes. As she did not hava a webpage for her business I decided to do one for her. Lisa had a designer design her logo. The webpage takes the colors and image that the logo aims to portray and extends it. Images of the cakes that Lisa has produced in the past have been used. The webpage separates these past cakes into four different types: Weddings, Birthdays, Cupcakes and finally Regular cakes. 
+ 
+## UX
+ 
+This website is for Lisa's current and future customers who would like a more fastforward way of purchasing their special occasion cakes. The website acts as a great cataloge as it showcases Lisa's creations. 
+- if a customer has a birthday that he or she wants to purchase a cake for, the customer would land on the Cuppa Cakes website and straight away the customer is able to ascertain the different types of cakes, the visual quality and striking features that the cakes provide and if desired the customer can select the birthday section in order to browse more birthday cakes to make a decision to purchase.
+- if a customer is already decided to purchase from the Cuppa Cakes website as he or she may have already been on the website or are previous customers of Lisa, the customer is easily able to navigate to the type of cake required by selecting Weddings and subsequently clicking the order here button below the desired cake. Clicking this button brings up an order form in the way of a modal. In this form customer details need to be input and these are sent. 
+ 
+Please see inside the cuppacakes directory Balsamiq Cuppa Cakes.bmpr file for wireframe of website. 
+
+## Features
+
+### Existing Features
+
+- Navbar - Shows logo (logo serves as a link to the main page) in an uninvasive way and displays the differnt types of cakes catered for with a contact us section and a search section
+- Contact Us section - displays a modal with a form in order to send a message to Lisa with what ever communication the user wants to send
+- Search section - this would be for the user to search a specific type of cake (This feature is not functional due to this project being stream 1)
+- Cake images - both the main images in the landing page and small images of each cake are there to display the visual quality of cakes and ability of Lisa in making the most stunning cakes possible.
+- Order here buttons - displays a modal in order for customer to place their order with Lisa by filling in a form with their details and special requirements or modifications needed.
+- Footer - has the same cake sections as the navbar displayed in order for the user to be able to go to them directly from the bottom of the website witout the need to scroll all the way to the top of the website. A link to Lisa's and Cuppa Cakes facebook page is showing here as well. A tweeter logo is included here for visual effect on the page however Cuppa Cakes does not have another social media channel. 
+
+
+### Features Left to Implement
+- Individual page for each cake - this page would show more photos of the same cake with the allergens of the cake listed and price
+- Search funtion to work - would search by name of cake, allergen or price
+
+## Technologies Used
+
+- [Html 5](https://www.w3.org/TR/html5/)
+    - The project uses **Html 5** to structure and present content.
+
+- [Css 3](https://www.w3.org/Style/CSS/Overview.en.html)
+    - The project uses **Css 3** to style content.
+
+- [bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to make website responsive to different screen sizes.
+
+- [bootstrap](https://fontawesome.com/)
+    - The project uses **Fontawsome** to include facebook and tweeter logos at footer of page.
+
+- [bootstrap](http://ianlunn.github.io/Hover/)
+    - The project uses **Hover.css** to apply effects to links at footer of the page.
+
+## Testing
+
+
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credits
+
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
