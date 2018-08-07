@@ -37,10 +37,10 @@ Please see inside the cuppacakes directory Balsamiq Cuppa Cakes.bmpr file for wi
 - [bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** to make website responsive to different screen sizes.
 
-- [bootstrap](https://fontawesome.com/)
+- [Fontawsome](https://fontawesome.com/)
     - The project uses **Fontawsome** to include facebook and tweeter logos at footer of page.
 
-- [bootstrap](http://ianlunn.github.io/Hover/)
+- [Hover.css](http://ianlunn.github.io/Hover/)
     - The project uses **Hover.css** to apply effects to links at footer of the page.
 
 ## Testing
