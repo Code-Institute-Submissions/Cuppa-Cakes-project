@@ -56,7 +56,7 @@ The following has been manually tested and is fully working:
 
 ## Deployment
 
-Deployment of project was undertaken with GitHub pages. In the source option, None was replaced by Master branch. 
+Deployment of project was undertaken with GitHub pages. In the source option, 'None' was replaced by 'Master branch'. 
 
 There are no differences between the local and the deployed versions
 
