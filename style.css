@@ -134,6 +134,20 @@ input[type=submit]:hover {
     }
 }
 
+#maincupcakes {
+    background-image: url("photos/cupcakesmain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 550px;
+    height: 550px;
+    position: relative;
+}
+
+@media (max-width: 425px) {
+    #maincupcakes {
+        background-image: url("photos/cupcakesmain medium.jpg");
+    }
+}
+
 .insidephoto1 {
     position: absolute;
     left: 70%;
