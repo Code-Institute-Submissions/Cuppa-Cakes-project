@@ -148,6 +148,21 @@ input[type=submit]:hover {
     }
 }
 
+#mainregular {
+    background-image: url("photos/regularmain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 550px;
+    height: 550px;
+    position: relative;
+}
+
+@media (max-width: 425px) {
+    #mainregular {
+        background-image: url("photos/regularmain medium.jpg");
+    }
+}
+
+
 .insidephoto1 {
     position: absolute;
     left: 70%;
