@@ -114,12 +114,24 @@ input[type=submit]:hover {
     position: relative;
 }
 
+@media (max-width: 425px) {
+    #mainphoto1 {
+        background-image: url("photos/wedding-cake2 medium.jpg");
+    }
+}
+
 #mainphoto2 {
     background-image: url("photos/wedding-cake.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 550px;
     height: 550px;
     position: relative;
+}
+
+@media (max-width: 425px) {
+    #mainphoto2 {
+        background-image: url("photos/wedding-cake medium.jpg");
+    }
 }
 
 .insidephoto1 {
