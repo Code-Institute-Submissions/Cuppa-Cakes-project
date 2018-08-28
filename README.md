@@ -1,4 +1,4 @@
-# Your Project's Name
+# Cuppa Cakes
 
 Cuppa Cakes is the trading name of a lady called Lisa that sells custom hand made cakes. As she did not hava a webpage for her business I decided to do one for her. Lisa had a designer design her logo. The webpage takes the colors and image that the logo aims to portray and extends it. Images of the cakes that Lisa has produced in the past have been used. The webpage separates these past cakes into four different types: Weddings, Birthdays, Cupcakes and finally Regular cakes. 
  
